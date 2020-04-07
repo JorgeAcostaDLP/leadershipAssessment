@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="css/landing.css" rel="stylesheet" />
+    <script src="js/utils.js"></script>
+
+    <title>Inclusion</title>
+  </head>
+  <body>
+    <div id="landing-page">
+      <div class="jumbotron">
+        <h1>Welcome to the Leadership Survey</h1>
+        <div id="menu">
+          <a type="button" class="btn btn-info btn-lg" href="apply.html"
+            >New Survey</a
+          >
+          <a id="login" type="button" class="btn btn-light btn-lg">Continue Previous Survey</a>
+
+        </div>
+        <form id='loginForm' style="display:none">
+          <input class='textArea'  name = 'id' id='id' placeholder="Id"></input>
+          <input type='password' class='textArea'  id='password' name = 'password'id='password' placeholder="Password" ></input>
+          <button id='loginSubmit' type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
